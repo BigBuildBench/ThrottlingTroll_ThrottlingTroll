@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <VersionPrefix>7.3.0</VersionPrefix>
+    </PropertyGroup>
+
+</Project>

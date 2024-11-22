@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ThrottlingTroll.CounterStores.DistributedCache</id>
+    <version>7.3.0</version>
+    <authors>ThrottlingTroll</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <description>CounterStore for ThrottlingTroll. Stores counters in ASP.Net Core's IDistributedCache.</description>
+    <tags>Rate Limiting;Throttling;ThrottlingTroll</tags>
+    <repository type="git" url="https://github.com/ThrottlingTroll/ThrottlingTroll" />
+    <readme>README.md</readme>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src=".\README.md" target="README.md" />
+    <file src="bin\Release\net6.0\ThrottlingTroll.*" target="lib/net6.0" />
+  </files>
+
+</package>
